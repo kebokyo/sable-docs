@@ -18,7 +18,9 @@ To see pages marked as `draft = true`, use `zola serve --drafts`.
 Documentation goes in the `/content` directory.
 
 Zola uses TOML (wrapped in +++) for frontmatter. Ensure every new .md file starts and ends with triple pluses.
+
 Every folder inside /content needs an _index.md file to be rendered as a section. If you create a new category, add an _index.md there first.
+
 You can place images or files directly in the same folder as your markdown file; Zola will handle the relative paths automatically.
 
 ## Deployment
