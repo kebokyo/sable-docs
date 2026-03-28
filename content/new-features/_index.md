@@ -1,6 +1,6 @@
 +++
 title = "New Features"
-weight = 2
+weight = 4
 template = "index.html"
 page_template = "page.html"
 
