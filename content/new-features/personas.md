@@ -75,7 +75,7 @@ Examples:
 
 ### Adding a shorthand
 
-> **Note:** The `text` is mandatory to be in there. For comparison [the documentation for the pluralkit command](https://pluralkit.me/guide/#proxying)
+> **Note:** You must include the word `text` in your shorthand pattern exactly as shown in the examples. Replace it with your actual message when you type later. This works the same way as [PluralKit's `proxy`](https://pluralkit.me/guide/#proxying) command
 
 Syntax: `pk;member [MemberName] proxy [text]`
 
@@ -88,7 +88,7 @@ Examples:
 
 ### Removing a shorthand
 
-> **Note:** The `text` is mandatory to be in there. For comparison [the documentation for the pluralkit command](https://pluralkit.me/guide/#proxying)
+> **Note:** `[text]` is exactly the pattern you entered when adding a shorthand. the word `text` must be contained in it in every case
 
 Syntax: `pk;member [MemberName] proxy remove [text]`
 
